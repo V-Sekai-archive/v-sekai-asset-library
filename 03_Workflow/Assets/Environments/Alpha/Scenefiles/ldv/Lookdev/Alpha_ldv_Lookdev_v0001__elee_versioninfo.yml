@@ -1,0 +1,12 @@
+!!omap
+- basePath: C:/Users/ernest.lee.AD-01/Documents/v-sekai-asset-library/03_Workflow/Assets/Environments/Alpha/Scenefiles/ldv/Lookdev
+- filename: C:/Users/ernest.lee.AD-01/Documents/v-sekai-asset-library/03_Workflow/Assets/Environments/Alpha/Scenefiles/ldv/Lookdev/Alpha_ldv_Lookdev_v0001__elee_.blend
+- entity: asset
+- entityName: Alpha
+- step: ldv
+- category: Lookdev
+- version: v0001
+- comment: ''
+- user: elee
+- extension: .blend
+- username: Ernest Lee
