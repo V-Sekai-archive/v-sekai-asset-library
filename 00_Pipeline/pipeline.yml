@@ -1,0 +1,222 @@
+!!omap
+- globals: !!omap
+  - project_name: V-Sekai
+  - prism_version: v1.3.0.58
+  - pipeline_steps: !!omap
+    - cpt: Concept
+    - mod: Modeling
+    - ldv: Lookdev
+    - rig: Rigging
+    - lay: Layout
+    - anm: Animation
+    - fx: Effects
+    - cfx: CharacterEffects
+    - lgt: Lighting
+    - cmp: Compositing
+    - edt: Editing
+    - dev: Development
+    - vrm: VRM
+  - uselocalfiles: false
+  - track_dependencies: publish
+  - checkframerange: true
+  - forcefps: false
+  - fps: 24
+  - forceversions: false
+  - filenameseparator: _
+  - sequenceseparator: '-'
+  - forceResolution: false
+  - resolution:
+    - 1920
+    - 1080
+  - resolutionPresets:
+    - 3840x2160
+    - 1920x1080
+    - 1280x720
+    - 960x540
+    - 640x360
+  - versionPadding: 4
+  - framePadding: 4
+  - versionFormat: v#
+  - useStrictAssetDetection: false
+- paths: !!omap
+  - pipeline: 00_Pipeline
+  - scenes: 03_Workflow
+  - assets: 04_Assets
+  - dailies: 05_Dailies
+- defaultpasses: !!omap
+  - max_scanline:
+    - diffuseRenderElement
+    - emissionRenderElement
+    - Lighting
+    - Material_ID
+    - MatteRenderElement
+    - Object_ID
+    - reflectionRenderElement
+    - refractionRenderElement
+    - Self_Illumination
+    - ShadowRenderElement
+    - specularRenderElement
+    - velocity
+    - ZRenderElement
+  - max_vray:
+    - MultiMatteElement
+    - VRayCaustics
+    - VRayExtraTex
+    - VRayGlobalIllumination
+    - VRayLighting
+    - VRayLightSelect
+    - VRayNormals
+    - VRayReflection
+    - VRayRefraction
+    - VRaySelfIllumination
+    - VRayShadows
+    - VRaySpecular
+    - VRayVelocity
+    - VRayZDepth
+  - houdini_arnold:
+    - - direct
+      - DirectLight
+    - - indirect
+      - IndirectLight
+    - - emission
+      - Emission
+    - - diffuse
+      - DiffuseReflection
+    - - specular
+      - SpecularReflection
+    - - transmission
+      - SpecularTransmisson
+    - - sss
+      - SSS
+    - - volume
+      - Volume
+    - - albedo
+      - Albedo
+    - - direct
+      - Beauty
+    - - Z
+      - Depth
+    - - N
+      - Normal
+    - - crypto_asset
+      - CryptoAsset
+    - - crypto_object
+      - CryptoObject
+    - - crypto_material
+      - CryptoMaterial
+  - houdini_mantra:
+    - - Color
+      - Cf
+    - - Opacity
+      - Of
+    - - Alpha
+      - Af
+    - - Position
+      - P
+    - - Position-Z
+      - Pz
+    - - Normal
+      - N
+    - - Emission
+      - Ce
+  - houdini_redshift:
+    - - Cryptomatte
+      - cryptomatte
+    - - Z Depth
+      - Z
+    - - Puzzle Matte
+      - puzzleMatte
+    - - Diffuse Lighting
+      - diffuse
+    - - Reflections
+      - reflection
+    - - Refractions
+      - refraction
+    - - Global Illumination
+      - gi
+    - - Shadows
+      - shadows
+    - - Normals
+      - N
+  - houdini_vray:
+    - - Diffuse
+      - diffuse
+    - - Reflection
+      - reflection
+    - - Refraction
+      - refraction
+    - - Self Illumination
+      - illum
+    - - Shadow
+      - shadow
+    - - Specular
+      - specular
+    - - GI
+      - gi
+    - - SSS
+      - sss
+  - houdini_3delight:
+    - - Ci
+    - - Diffuse
+    - - Subsurface-scattering
+    - - Reflection
+    - - Refraction
+    - - Volume scattering
+    - - Incandescence
+    - - Z (depth)
+    - - Ci
+    - - Camera space position
+    - - Camera space normal
+  - maya_vray: !!omap
+    - Background: backgroundChannel
+    - Caustics: causticsChannel
+    - Diffuse: diffuseChannel
+    - Extra Tex: ExtraTexElement
+    - GI: giChannel
+    - Lighting: lightingChannel
+    - Multi Matte: MultiMatteElement
+    - Normals: normalsChannel
+    - Reflection: reflectChannel
+    - Refraction: refractChannel
+    - SSS: FastSSS2Channel
+    - Self Illumination: selfIllumChannel
+    - Shadow: shadowChannel
+    - Specular: specularChannel
+    - Velocity: velocityChannel
+    - Z-depth: zdepthChannel
+  - maya_arnold:
+    - N
+    - Z
+    - albedo
+    - background
+    - diffuse
+    - direct
+    - emission
+    - indirect
+    - motionvector
+    - opacity
+    - specular
+    - sss
+    - transmission
+    - volume
+    - shadow
+  - maya_redshift:
+    - Ambient Occlusion
+    - Background
+    - Caustics
+    - Depth
+    - Diffuse Filter
+    - Diffuse Lighting
+    - Emission
+    - Global Illumination
+    - Matte
+    - Motion Vectors
+    - Normals
+    - Puzzle Matte
+    - Reflections
+    - Refractions
+    - Shadows
+    - Specular Lighting
+    - Volume Lighting
+    - World Position
+- export_paths: []
