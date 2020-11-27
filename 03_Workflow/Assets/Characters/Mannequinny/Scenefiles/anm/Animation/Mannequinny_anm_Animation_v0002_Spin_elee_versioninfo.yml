@@ -1,0 +1,13 @@
+!!omap
+- basePath: C:/Users/ernest.lee.AD-01/Documents/v-sekai-asset-library/03_Workflow/Assets/Characters/Mannequinny/Scenefiles/anm/Animation
+- filename: C:/Users/ernest.lee.AD-01/Documents/v-sekai-asset-library/03_Workflow/Assets/Characters/Mannequinny/Scenefiles/anm/Animation/Mannequinny_anm_Animation_v0002_Spin_elee_.blend
+- entity: asset
+- entityName: Mannequinny
+- step: anm
+- category: Animation
+- version: v0002
+- comment: Spin
+- user: elee
+- extension: .blend
+- description: Spin around the character.
+- username: Ernest Lee
