@@ -20,7 +20,7 @@
   - track_dependencies: publish
   - checkframerange: true
   - forcefps: false
-  - fps: 24
+  - fps: 24.0
   - forceversions: false
   - filenameseparator: _
   - sequenceseparator: '-'
@@ -38,6 +38,16 @@
   - framePadding: 4
   - versionFormat: v#
   - useStrictAssetDetection: false
+  - debug_mode: false
+  - useMasterVersion: false
+  - 3dsMax_version: 21,0,0,845
+  - Blender_version: '2.90'
+  - Fusion_version: '16'
+  - Houdini_version: 18, 0, 566
+  - Maya_version: '20180100'
+  - Natron_version: 2.3.13
+  - Nuke_version: 11.0v1
+  - Photoshop_version: 13.0.0
 - paths: !!omap
   - pipeline: 00_Pipeline
   - scenes: 03_Workflow
@@ -220,3 +230,9 @@
     - Volume Lighting
     - World Position
 - export_paths: []
+- shotgun: !!omap
+  - active: false
+  - site: ''
+  - projectname: ''
+  - scriptname: ''
+  - apikey: ''

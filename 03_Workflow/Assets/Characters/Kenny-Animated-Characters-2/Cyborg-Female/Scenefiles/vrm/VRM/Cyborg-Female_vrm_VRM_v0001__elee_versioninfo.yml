@@ -1,0 +1,12 @@
+!!omap
+- basePath: C:/Users/ernest.lee.AD-01/Documents/v-sekai-asset-library/03_Workflow/Assets/Characters/Kenny-Animated-Characters-2/Cyborg-Female/Scenefiles/vrm/VRM
+- filename: C:/Users/ernest.lee.AD-01/Documents/v-sekai-asset-library/03_Workflow/Assets/Characters/Kenny-Animated-Characters-2/Cyborg-Female/Scenefiles/vrm/VRM/Cyborg-Female_vrm_VRM_v0001__elee_.blend
+- entity: asset
+- entityName: Cyborg-Female
+- step: vrm
+- category: VRM
+- version: v0001
+- comment: ''
+- user: elee
+- extension: .blend
+- username: Ernest Lee

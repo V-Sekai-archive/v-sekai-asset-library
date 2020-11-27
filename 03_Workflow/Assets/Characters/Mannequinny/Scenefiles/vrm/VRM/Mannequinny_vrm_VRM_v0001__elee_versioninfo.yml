@@ -1,0 +1,12 @@
+!!omap
+- basePath: C:/Users/ernest.lee.AD-01/Documents/v-sekai-asset-library/03_Workflow/Assets/Characters/Mannequinny/Scenefiles/vrm/VRM
+- filename: C:/Users/ernest.lee.AD-01/Documents/v-sekai-asset-library/03_Workflow/Assets/Characters/Mannequinny/Scenefiles/vrm/VRM/Mannequinny_vrm_VRM_v0001__elee_.blend
+- entity: asset
+- entityName: Mannequinny
+- step: vrm
+- category: VRM
+- version: v0001
+- comment: ''
+- user: elee
+- extension: .blend
+- username: Ernest Lee
